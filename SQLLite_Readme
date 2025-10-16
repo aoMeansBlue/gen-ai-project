@@ -1,0 +1,11 @@
+Install SQLite from here
+https://sqlite.org/download.html
+
+
+To Create new DB:
+
+Using Elevated Command Line:
+Run: sqlite ELLM.db
+>> CREATE TABLE Test (id INTEGER PRIMARY KEY, name TEXT)
+>> INSERT INTO Test (name) VALUES ('Hello'), ('World')
+>> SELECT * FROM Test
