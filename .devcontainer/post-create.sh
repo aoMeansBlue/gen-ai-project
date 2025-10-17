@@ -32,6 +32,7 @@ pip3 install jq nltk
 pip3 install duckduckgo_search ddgs
 pip3 install pypdf pymupdf Pillow
 pip3 install fastmcp[cli]
+pip3 install matplotlib
  
 echo "Preloads..."
 python3 .devcontainer/preload.py
